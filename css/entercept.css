@@ -1,0 +1,20 @@
+body{
+background: url("img/e-bg.png");
+height: 100%;
+z-index: -100;
+}
+
+.logo {
+	min-height: 100%;
+	width: 100%;
+}
+
+.logo img {
+	text-align: center;
+	height: 30%;
+	width: 30%;
+	position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translateY(-50%) translateX(-50%);
+}
