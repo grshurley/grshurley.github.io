@@ -65,8 +65,8 @@ h5 {
 
 
 div.middle {
-  position: absolute;
-  bottom: 0;
+  position: fixed;
+  bottom: 30px;
   height: 15px;
   width: 100%;
   background-image: linear-gradient(-90deg, #2C23AE 0%, #436DDD 59%, #53A0FE 100%, #C900FF 100%);
