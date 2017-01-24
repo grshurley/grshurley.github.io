@@ -8,12 +8,12 @@ div.top {
   display: block;
   height: 90%;
   width: 100%;
-  padding-top: 18%;
+  padding-top: 12%;
 }
 
 h1 {
   color: #fff;
-  font-size: 36px;
+  font-size: 34px;
 }
 
 h3 {
@@ -28,7 +28,7 @@ h5 {
 }
 
 #text-row {
-  padding-top: 45px;
+  padding-top: 5%;
 }
 
 #contact-button {
@@ -46,7 +46,7 @@ h5 {
 }
 
 #footer-text {
-  padding-top: 40px;
+  padding-top: 3%;
 }
 
 div.middle {
