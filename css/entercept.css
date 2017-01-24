@@ -1,20 +1,56 @@
-body{
-background: url("img/e-bg.png");
-height: 100%;
-z-index: -100;
+#logo {
+  display: inline-block;
+
 }
 
-.logo {
-	min-height: 100%;
-	width: 100%;
+div.top {
+  background-color: #000;
+  display: block;
+  height: 90%;
+  width: 100%;
+  padding-top: 18%;
 }
 
-.logo img {
-	text-align: center;
-	height: 30%;
-	width: 30%;
-	position: absolute;
-  top: 50%;
-  right: 50%;
-  transform: translateY(-50%) translateX(50%);
+h1 {
+  color: #fff;
+  font-size: 36px;
+}
+
+h3 {
+  color: #fff;
+  font-size: 18px;
+}
+
+h5 {
+  color: #000;
+  font-size: 12px;
+  text-align: right;
+}
+
+#text-row {
+  padding-top: 45px;
+}
+
+#contact-button {
+  margin-top: 45px;
+  margin-bottom: 15%;
+  padding-top: 12px;
+  height: 45px;
+  background-image: linear-gradient(-90deg, #2C23AE 0%, #436DDD 59%, #53A0FE 100%, #C900FF 100%);
+  width: 170px;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+#footer-text {
+  padding-top: 40px;
+}
+
+div.middle {
+  height: 15px;
+  width: 100%;
+  background-image: linear-gradient(-90deg, #2C23AE 0%, #436DDD 59%, #53A0FE 100%, #C900FF 100%);
 }
