@@ -1,3 +1,7 @@
+body {
+  background-color: #000;
+}
+
 #logo {
   display: inline-block;
 
@@ -6,7 +10,6 @@
 div.top {
   background-color: #000;
   display: block;
-  height: 90%;
   width: 100%;
   padding-top: 12%;
 }
@@ -22,7 +25,7 @@ h3 {
 }
 
 h5 {
-  color: #000;
+  color: #2F3437;
   font-size: 12px;
 }
 
@@ -32,7 +35,7 @@ h5 {
 
 #contact-button {
   margin-top: 45px;
-  margin-bottom: 15%;
+  margin-bottom: 10%;
   padding-top: 12px;
   height: 45px;
   background-image: linear-gradient(-90deg, #2C23AE 0%, #436DDD 59%, #53A0FE 100%, #C900FF 100%);
@@ -45,13 +48,13 @@ h5 {
 }
 
 #footer-text {
-  padding-top: 3%;
-  text-align: right;
+  margin-bottom: : 10%;
+  text-align: left;;
 }
 
 @media print, screen and (max-width: 600px) {
   #footer-text {
-    text-align: center;}
+    text-align: left;}
   h1 {
     font-size: 32px;
     }
