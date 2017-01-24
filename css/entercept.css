@@ -51,7 +51,10 @@ h5 {
 
 @media print, screen and (max-width: 600px) {
   #footer-text {
-    text-align: center;} }
+    text-align: center;}
+  h1 {
+    font-size: 32px;
+    } }
 
 
 div.middle {
