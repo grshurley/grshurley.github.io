@@ -24,7 +24,6 @@ h3 {
 h5 {
   color: #000;
   font-size: 12px;
-  text-align: right;
 }
 
 #text-row {
@@ -47,7 +46,13 @@ h5 {
 
 #footer-text {
   padding-top: 3%;
+  text-align: right;
 }
+
+@media print, screen and (max-width: 600px) {
+  #footer-text {
+    text-align: center;} }
+
 
 div.middle {
   height: 15px;
