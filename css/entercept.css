@@ -1,3 +1,15 @@
+@font-face {
+	font-family: DINPro-Bold;
+	src: url('fonts/DIN/DINPro-Bold.otf');
+}
+
+@font-face {
+	font-family: DINPro-Regular;
+	src: url('fonts/DIN/DINPro-Regular.otf');
+}
+
+
+
 body {
   background-color: #000;
 }
@@ -17,16 +29,19 @@ div.top {
 h1 {
   color: #fff;
   font-size: 34px;
+  font-family: DINPro-Regular;
 }
 
 h3 {
   color: #fff;
   font-size: 18px;
+  font-family: DINPro-Regular;
 }
 
 h5 {
   color: #2F3437;
   font-size: 12px;
+  font-family: DINPro-Regular;
 }
 
 #text-row {
@@ -44,7 +59,7 @@ h5 {
   text-transform: uppercase;
   text-align: center;
   font-size: 14px;
-  font-weight: bold;
+  font-family: DINPro-Bold;
 }
 
 #footer-text {
