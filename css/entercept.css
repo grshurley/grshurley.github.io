@@ -65,12 +65,15 @@ h5 {
 
 #footer-text {
   margin-bottom: : 10%;
-  text-align: left;;
+  text-align: left;
+	vertical-align: text-bottom;
 }
 
 @media print, screen and (max-width: 600px) {
   #footer-text {
-    text-align: left;}
+		position: absolute;
+    bottom: 20px;
+    left: 10px;}
   h1 {
     font-size: 28px;
     }
