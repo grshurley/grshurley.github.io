@@ -70,10 +70,15 @@ h5 {
 }
 
 @media print, screen and (max-width: 600px) {
-  #footer-text {
+	body {
+		padding-left: 5%;
+		padding-top: 20%;
+	}
+
+	#footer-text {
 		position: absolute;
-    bottom: 20px;
-    left: 10px;}
+    bottom: 5%;
+    left: 5%;}
   h1 {
     font-size: 28px;
     }
