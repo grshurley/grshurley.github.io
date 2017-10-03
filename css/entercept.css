@@ -11,17 +11,16 @@
 
 
 body {
-  background-color: #000FFF;
+  background-color: #000;
 }
 
 #logo {
-  display: block;
-	width: 275px;
+  display: inline-block;
 
 }
 
 div.top {
-  background-color: #000FFF;
+  background-color: #000;
   display: block;
   width: 100%;
   padding-top: 12%;
@@ -29,7 +28,7 @@ div.top {
 
 h1 {
   color: #fff;
-  font-size: 30px;
+  font-size: 34px;
   font-family: DINPro-Regular;
 }
 
@@ -40,7 +39,7 @@ h3 {
 }
 
 h5 {
-  color: #fff;
+  color: #2F3437;
   font-size: 12px;
   font-family: DINPro-Regular;
 }
@@ -54,9 +53,9 @@ h5 {
   margin-bottom: 10%;
   padding-top: 12px;
   height: 45px;
-  background-color: #fff;
+  background-image: linear-gradient(-90deg, #2C23AE 0%, #436DDD 59%, #53A0FE 100%, #C900FF 100%);
   width: 170px;
-  color: #000;
+  color: #fff;
   text-transform: uppercase;
   text-align: center;
   font-size: 14px;
@@ -65,27 +64,18 @@ h5 {
 
 #footer-text {
   margin-bottom: : 10%;
-  text-align: left;
-	vertical-align: text-bottom;
+  text-align: left;;
 }
 
 @media print, screen and (max-width: 600px) {
-	body {
-		padding-top: 20%;
-	}
-
-	#footer-text {
-		position: absolute;
-    bottom: 5%;}
+  #footer-text {
+    text-align: left;}
   h1 {
-    font-size: 28px;
+    font-size: 32px;
     }
     #text-row {
       padding-top: 8%;
     }
-		#logo {
-		  display: block;
-			width: 50%;	}
   }
 
 
@@ -93,10 +83,4 @@ div.middle {
   height: 15px;
   width: 100%;
   background-image: linear-gradient(-90deg, #2C23AE 0%, #436DDD 59%, #53A0FE 100%, #C900FF 100%);
-}
-
-div.middle2 {
-  height: 15px;
-  width: 100%;
-  background-color: #000;
 }
