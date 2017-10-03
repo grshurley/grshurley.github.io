@@ -11,16 +11,17 @@
 
 
 body {
-  background-color: #000;
+  background-color: #000FFF;
 }
 
 #logo {
-  display: inline-block;
+  display: block;
+	width: 275px;
 
 }
 
 div.top {
-  background-color: #000;
+  background-color: #000FFF;
   display: block;
   width: 100%;
   padding-top: 12%;
@@ -28,7 +29,7 @@ div.top {
 
 h1 {
   color: #fff;
-  font-size: 34px;
+  font-size: 30px;
   font-family: DINPro-Regular;
 }
 
@@ -39,7 +40,7 @@ h3 {
 }
 
 h5 {
-  color: #2F3437;
+  color: #fff;
   font-size: 12px;
   font-family: DINPro-Regular;
 }
@@ -53,9 +54,9 @@ h5 {
   margin-bottom: 10%;
   padding-top: 12px;
   height: 45px;
-  background-image: linear-gradient(-90deg, #2C23AE 0%, #436DDD 59%, #53A0FE 100%, #C900FF 100%);
+  background-color: #fff;
   width: 170px;
-  color: #fff;
+  color: #000;
   text-transform: uppercase;
   text-align: center;
   font-size: 14px;
@@ -64,18 +65,27 @@ h5 {
 
 #footer-text {
   margin-bottom: : 10%;
-  text-align: left;;
+  text-align: left;
+	vertical-align: text-bottom;
 }
 
 @media print, screen and (max-width: 600px) {
-  #footer-text {
-    text-align: left;}
+	body {
+		padding-top: 20%;
+	}
+
+	#footer-text {
+		position: absolute;
+    bottom: 5%;}
   h1 {
-    font-size: 32px;
+    font-size: 28px;
     }
     #text-row {
       padding-top: 8%;
     }
+		#logo {
+		  display: block;
+			width: 50%;	}
   }
 
 
@@ -83,4 +93,10 @@ div.middle {
   height: 15px;
   width: 100%;
   background-image: linear-gradient(-90deg, #2C23AE 0%, #436DDD 59%, #53A0FE 100%, #C900FF 100%);
+}
+
+div.middle2 {
+  height: 15px;
+  width: 100%;
+  background-color: #000;
 }
