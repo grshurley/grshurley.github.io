@@ -28,19 +28,19 @@ div.top {
 }
 
 h1 {
-  color: #000205;
+  color: #000215;
   font-size: 34px;
   font-family: DINPro-Regular;
 }
 
 h3 {
-  color: #000205;
+  color: #000215;
   font-size: 18px;
   font-family: DINPro-Regular;
 }
 
 h5 {
-  color: #000205;
+  color: #000215;
   font-size: 12px;
   font-family: DINPro-Regular;
 }
@@ -54,7 +54,7 @@ h5 {
   margin-bottom: 10%;
   padding-top: 12px;
   height: 45px;
-  background: #000205;
+  background: #000215;
   width: 170px;
   color: #fff;
   text-transform: uppercase;
