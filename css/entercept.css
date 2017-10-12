@@ -11,35 +11,36 @@
 
 
 body {
-  background-color: #000;
+  background-color: #fff;
 }
 
 #logo {
-  display: inline-block;
+  display: block;
+	width: 50%;
 
 }
 
 div.top {
-  background-color: #000;
+  background-color: #fff;
   display: block;
   width: 100%;
   padding-top: 12%;
 }
 
 h1 {
-  color: #fff;
+  color: #000;
   font-size: 34px;
   font-family: DINPro-Regular;
 }
 
 h3 {
-  color: #fff;
+  color: #000;
   font-size: 18px;
   font-family: DINPro-Regular;
 }
 
 h5 {
-  color: #2F3437;
+  color: #000;
   font-size: 12px;
   font-family: DINPro-Regular;
 }
@@ -53,7 +54,7 @@ h5 {
   margin-bottom: 10%;
   padding-top: 12px;
   height: 45px;
-  background-image: linear-gradient(-90deg, #2C23AE 0%, #436DDD 59%, #53A0FE 100%, #C900FF 100%);
+  background: #000000;
   width: 170px;
   color: #fff;
   text-transform: uppercase;
@@ -80,7 +81,7 @@ h5 {
 
 
 div.middle {
-  height: 15px;
+  height: 10px;
   width: 100%;
-  background-image: linear-gradient(-90deg, #2C23AE 0%, #436DDD 59%, #53A0FE 100%, #C900FF 100%);
+  background: #000fff;
 }
