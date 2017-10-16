@@ -63,6 +63,10 @@ h5 {
   font-family: DINPro-Bold;
 }
 
+#contact-button:hover {
+	background: #000fff;
+}
+
 #footer-text {
   margin-bottom: : 10%;
   text-align: left;;
