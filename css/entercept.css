@@ -16,7 +16,7 @@ body {
 
 #logo {
   display: block;
-	width: 50%;
+	width: 80%;
 
 }
 
@@ -84,8 +84,8 @@ h5 {
   }
 
 
-div.middle {
-  height: 10px;
-  width: 100%;
-  background: #000fff;
-}
+	div.middle {
+	  height: 10px;
+	  width: 100%;
+	  background-image: linear-gradient( 90deg, #000FFF 0%, #000FFF 30%, #04003F 82%, #04003F 100%);
+	}
