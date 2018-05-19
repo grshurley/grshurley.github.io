@@ -11,7 +11,6 @@
 
 
 body {
-  background-color: #fff;
 }
 
 #logo {
@@ -20,8 +19,13 @@ body {
 
 }
 
+svg {
+	fill: #000;
+	-webkit-transition: ease 0.2s;
+	 transition: ease 0.2s;
+}
+
 div.top {
-  background-color: #fff;
   display: block;
   width: 100%;
   padding-top: 12%;
@@ -54,17 +58,21 @@ h5 {
   margin-bottom: 10%;
   padding-top: 12px;
   height: 45px;
-  background: #000215;
+  background: #0020ff;
   width: 170px;
   color: #fff;
   text-transform: uppercase;
   text-align: center;
   font-size: 14px;
   font-family: DINPro-Bold;
+	-webkit-transition: ease 0.2s;
+	 transition: ease 0.2s;
 }
 
 #contact-button:hover {
-	background: #000fff;
+	background: #000;
+	-webkit-transition: ease 0.2s;
+	 transition: ease 0.2s;
 }
 
 #footer-text {
@@ -85,7 +93,9 @@ h5 {
 
 
 	div.middle {
+		display: none;
 	  height: 10px;
 	  width: 100%;
-	  background-image: linear-gradient( 90deg, #000FFF 0%, #000FFF 30%, #04003F 82%, #04003F 100%);
+		background-color: #0020ff;
+	  xbackground-image: linear-gradient( 45deg, #000FFF 0%, #5000ff 30%, #000 82%, #000 100%);
 	}
