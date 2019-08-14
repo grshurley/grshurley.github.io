@@ -131,10 +131,14 @@ h5 a:hover{
 	}
 
   #footer-text {
-    text-align: left;}
-  h1 {
-    font-size: 32px;
-    }
+    text-align: left;
+
+	}
+
+		h1 {
+    font-size: 27px;
+		}
+
     #text-row {
       padding-top: 8%;
     }
